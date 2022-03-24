@@ -1,0 +1,38 @@
+{
+  "name": "littlebugger/php-hacker-news-proxy",
+  "description": "Modify Hacker News with '™'.",
+  "type": "library",
+  "keywords": [
+    "php-proxy",
+    "proxy-script",
+    "php",
+    "proxy",
+    "http",
+    "http-proxy",
+    "curl",
+    "curlphp"
+  ],
+  "homepage": "https://github.com/littlebugger/hacker-news-proxy",
+  "readme": "README.md",
+  "require": {
+    "php": ">=5.6.0",
+    "ext-curl": "*",
+    "ext-zlib": "*"
+  },
+  "license": "unlicense",
+  "authors": [
+    {
+      "name": "littlebugger",
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/littlebugger/hacker-news-proxy/issues",
+    "source": "https://github.com/littlebugger/hacker-news-proxy",
+    "docs": "https://github.com/littlebugger/hacker-news-proxy/blob/master/README.md"
+  },
+  "autoload": {
+    "psr-4": {
+      "HackerNewsProxy\\": "./"
+    }
+  }
+}
