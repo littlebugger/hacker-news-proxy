@@ -7,7 +7,7 @@ use Exception;
 use RuntimeException;
 
 /**
- * @author littlebugger <https://github.com/little_debugger>
+ * @author littlebugger <https://github.com/littlebugger>
  * @license http://unlicense.org
  * @package HackerNewsProxy
  *
